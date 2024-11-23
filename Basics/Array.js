@@ -153,18 +153,29 @@
 // }
 
 // Index of a Target Element
-let arr=[12,23,17,44,56,29,48]
-let target=17
-let found=false
-for (let i = 0; i < arr.length; i++) { 
-    if(target==arr[i])
-    {
-        console.log("The target element " + target + " is at index: " + i);
-        found=true
-        break;
-    }
+// let arr=[12,23,17,44,56,29,48]
+// let target=17
+// let found=false
+// for (let i = 0; i < arr.length; i++) { 
+//     if(target==arr[i])
+//     {
+//         console.log("The target element " + target + " is at index: " + i);
+//         found=true
+//         break;
+//     }
+// }
+// if(!found)
+// {
+//     console.log("The element does not found")
+// }
+
+// creating array of squares
+
+let arr=[2,5,7,10]
+let newarr=[]
+for (let i = 0; i < arr.length; i++) {
+    newarr.push(arr[i]*arr[i])
+    
 }
-if(!found)
-{
-    console.log("The element does not found")
-}
+console.log(newarr)
+
